@@ -1,3 +1,48 @@
 body {
   font-family: sans-serif;
 }
+.incomplete-area,
+.complete-area,
+.input-area {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.input-area {
+  background-color: #cff;
+}
+input {
+  border-radius: 15px;
+  border: none;
+  padding: 8px;
+}
+button {
+  border-radius: 15px;
+  margin: 0 3px;
+  padding: 5px 12px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  background-color: #fcc;
+}
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+.list-row {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.incomplete-area {
+  background-color: #fcf;
+}
+
+.complete-area {
+  background-color: #ffc;
+}
